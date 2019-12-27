@@ -4,11 +4,11 @@ class CreateMovies < ActiveRecord::Migration[5.2]
     create_table :shows do |t|
       t.string  :name
       t.string  :network
-      t.string  :day 
+      t.string  :day
       t.integer :rating 
     end
   end
-  
+
 end
 
 
@@ -22,7 +22,7 @@ end
 #       t.string :director
 #       t.string :lead
 #       t.boolean :in_theaters
-#     end 
+#     end
 #   end
-#   
-# end 
+#
+# end
